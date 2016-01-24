@@ -1,0 +1,24 @@
+//
+//  LPrefixHeader.pch
+//  LSerialTakeCamera
+//
+//  Created by 李姝睿 on 18/1/16.
+//  Copyright © 2016年 李姝睿. All rights reserved.
+//
+
+#ifndef LPrefixHeader_pch
+#define LPrefixHeader_pch
+
+#import "UIButton+LAttributeSetting.h"
+#import "UIView+LLayout.h"
+#import "CALayer+LDrawMethods.h"
+#import "UILabel+LAttributeSetting.h"
+
+#define MAX_PINCH_SCALE_NUM   3.f
+#define MIN_PINCH_SCALE_NUM   1.f
+
+#define WS(ws) __weak __typeof(self)ws = self;
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* LPrefixHeader_pch */

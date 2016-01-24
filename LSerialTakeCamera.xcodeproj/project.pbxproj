@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E784157F1C4CB6E6008068D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E784157E1C4CB6E6008068D8 /* main.m */; };
+		E78415821C4CB6E6008068D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E78415811C4CB6E6008068D8 /* AppDelegate.m */; };
+		E784158A1C4CB6E7008068D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E78415891C4CB6E7008068D8 /* Assets.xcassets */; };
+		E784158D1C4CB6E7008068D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E784158B1C4CB6E7008068D8 /* LaunchScreen.storyboard */; };
+		E78415981C4CB6E7008068D8 /* LSerialTakeCameraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E78415971C4CB6E7008068D8 /* LSerialTakeCameraTests.m */; };
+		E78415A31C4CB6E7008068D8 /* LSerialTakeCameraUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E78415A21C4CB6E7008068D8 /* LSerialTakeCameraUITests.m */; };
+		E78415B41C4CB834008068D8 /* UIButton+LAttributeSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = E78415B31C4CB834008068D8 /* UIButton+LAttributeSetting.m */; };
+		E78415B71C4CB8B4008068D8 /* UIView+LLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E78415B61C4CB8B4008068D8 /* UIView+LLayout.m */; };
+		E78415BB1C4CBBB8008068D8 /* LCameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = E78415BA1C4CBBB8008068D8 /* LCameraView.m */; };
+		E78415BE1C4CCACA008068D8 /* LCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E78415BD1C4CCACA008068D8 /* LCameraViewController.m */; };
+		E78415C11C4CCB25008068D8 /* LRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E78415C01C4CCB25008068D8 /* LRootViewController.m */; };
+		E78415C41C4CE0D1008068D8 /* LCameraManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E78415C31C4CE0D1008068D8 /* LCameraManager.m */; };
+		E78834FB1C4E352E00807C06 /* LPhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E78834FA1C4E352E00807C06 /* LPhotoCollectionViewCell.m */; };
+		E797228C1C51D877004989B9 /* CALayer+LDrawMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = E797228B1C51D877004989B9 /* CALayer+LDrawMethods.m */; };
+		E79722AC1C520AD5004989B9 /* LZoomScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = E79722AB1C520AD5004989B9 /* LZoomScrollView.m */; };
+		E79722AF1C520B2D004989B9 /* LBrowsCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E79722AE1C520B2D004989B9 /* LBrowsCollectionViewCell.m */; };
+		E79722B21C520B80004989B9 /* LBrowseView.m in Sources */ = {isa = PBXBuildFile; fileRef = E79722B11C520B80004989B9 /* LBrowseView.m */; };
+		E7E731911C4F1E7F0067DD9A /* UILabel+LAttributeSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E731901C4F1E7F0067DD9A /* UILabel+LAttributeSetting.m */; };
+		E7E731941C4F23480067DD9A /* LSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E731931C4F23480067DD9A /* LSlider.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E78415941C4CB6E7008068D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E78415721C4CB6E6008068D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E78415791C4CB6E6008068D8;
+			remoteInfo = LSerialTakeCamera;
+		};
+		E784159F1C4CB6E7008068D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E78415721C4CB6E6008068D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E78415791C4CB6E6008068D8;
+			remoteInfo = LSerialTakeCamera;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E784157A1C4CB6E6008068D8 /* LSerialTakeCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LSerialTakeCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E784157E1C4CB6E6008068D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E78415801C4CB6E6008068D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E78415811C4CB6E6008068D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E78415891C4CB6E7008068D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E784158C1C4CB6E7008068D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E784158E1C4CB6E7008068D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E78415931C4CB6E7008068D8 /* LSerialTakeCameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LSerialTakeCameraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E78415971C4CB6E7008068D8 /* LSerialTakeCameraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSerialTakeCameraTests.m; sourceTree = "<group>"; };
+		E78415991C4CB6E7008068D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E784159E1C4CB6E7008068D8 /* LSerialTakeCameraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LSerialTakeCameraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E78415A21C4CB6E7008068D8 /* LSerialTakeCameraUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSerialTakeCameraUITests.m; sourceTree = "<group>"; };
+		E78415A41C4CB6E7008068D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E78415B11C4CB77B008068D8 /* LPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LPrefixHeader.pch; sourceTree = "<group>"; };
+		E78415B21C4CB834008068D8 /* UIButton+LAttributeSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+LAttributeSetting.h"; sourceTree = "<group>"; };
+		E78415B31C4CB834008068D8 /* UIButton+LAttributeSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+LAttributeSetting.m"; sourceTree = "<group>"; };
+		E78415B51C4CB8B4008068D8 /* UIView+LLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LLayout.h"; sourceTree = "<group>"; };
+		E78415B61C4CB8B4008068D8 /* UIView+LLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LLayout.m"; sourceTree = "<group>"; };
+		E78415B91C4CBBB8008068D8 /* LCameraView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCameraView.h; sourceTree = "<group>"; };
+		E78415BA1C4CBBB8008068D8 /* LCameraView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCameraView.m; sourceTree = "<group>"; };
+		E78415BC1C4CCACA008068D8 /* LCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCameraViewController.h; sourceTree = "<group>"; };
+		E78415BD1C4CCACA008068D8 /* LCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCameraViewController.m; sourceTree = "<group>"; };
+		E78415BF1C4CCB25008068D8 /* LRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRootViewController.h; sourceTree = "<group>"; };
+		E78415C01C4CCB25008068D8 /* LRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRootViewController.m; sourceTree = "<group>"; };
+		E78415C21C4CE0D1008068D8 /* LCameraManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCameraManager.h; sourceTree = "<group>"; };
+		E78415C31C4CE0D1008068D8 /* LCameraManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCameraManager.m; sourceTree = "<group>"; };
+		E78834F91C4E352E00807C06 /* LPhotoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPhotoCollectionViewCell.h; sourceTree = "<group>"; };
+		E78834FA1C4E352E00807C06 /* LPhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPhotoCollectionViewCell.m; sourceTree = "<group>"; };
+		E797228A1C51D877004989B9 /* CALayer+LDrawMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+LDrawMethods.h"; sourceTree = "<group>"; };
+		E797228B1C51D877004989B9 /* CALayer+LDrawMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+LDrawMethods.m"; sourceTree = "<group>"; };
+		E79722AA1C520AD5004989B9 /* LZoomScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZoomScrollView.h; sourceTree = "<group>"; };
+		E79722AB1C520AD5004989B9 /* LZoomScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZoomScrollView.m; sourceTree = "<group>"; };
+		E79722AD1C520B2D004989B9 /* LBrowsCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBrowsCollectionViewCell.h; sourceTree = "<group>"; };
+		E79722AE1C520B2D004989B9 /* LBrowsCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBrowsCollectionViewCell.m; sourceTree = "<group>"; };
+		E79722B01C520B80004989B9 /* LBrowseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBrowseView.h; sourceTree = "<group>"; };
+		E79722B11C520B80004989B9 /* LBrowseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBrowseView.m; sourceTree = "<group>"; };
+		E7E7318F1C4F1E7F0067DD9A /* UILabel+LAttributeSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+LAttributeSetting.h"; sourceTree = "<group>"; };
+		E7E731901C4F1E7F0067DD9A /* UILabel+LAttributeSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+LAttributeSetting.m"; sourceTree = "<group>"; };
+		E7E731921C4F23480067DD9A /* LSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSlider.h; sourceTree = "<group>"; };
+		E7E731931C4F23480067DD9A /* LSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSlider.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E78415771C4CB6E6008068D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E78415901C4CB6E7008068D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E784159B1C4CB6E7008068D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E78415711C4CB6E6008068D8 = {
+			isa = PBXGroup;
+			children = (
+				E784157C1C4CB6E6008068D8 /* LSerialTakeCamera */,
+				E78415961C4CB6E7008068D8 /* LSerialTakeCameraTests */,
+				E78415A11C4CB6E7008068D8 /* LSerialTakeCameraUITests */,
+				E784157B1C4CB6E6008068D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E784157B1C4CB6E6008068D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E784157A1C4CB6E6008068D8 /* LSerialTakeCamera.app */,
+				E78415931C4CB6E7008068D8 /* LSerialTakeCameraTests.xctest */,
+				E784159E1C4CB6E7008068D8 /* LSerialTakeCameraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E784157C1C4CB6E6008068D8 /* LSerialTakeCamera */ = {
+			isa = PBXGroup;
+			children = (
+				E78415B81C4CBB87008068D8 /* cameraClass */,
+				E79722A91C520A98004989B9 /* Browse */,
+				E78415B01C4CB702008068D8 /* category */,
+				E78415BF1C4CCB25008068D8 /* LRootViewController.h */,
+				E78415C01C4CCB25008068D8 /* LRootViewController.m */,
+				E78415801C4CB6E6008068D8 /* AppDelegate.h */,
+				E78415811C4CB6E6008068D8 /* AppDelegate.m */,
+				E78415B11C4CB77B008068D8 /* LPrefixHeader.pch */,
+				E78415891C4CB6E7008068D8 /* Assets.xcassets */,
+				E784158B1C4CB6E7008068D8 /* LaunchScreen.storyboard */,
+				E784158E1C4CB6E7008068D8 /* Info.plist */,
+				E784157D1C4CB6E6008068D8 /* Supporting Files */,
+			);
+			path = LSerialTakeCamera;
+			sourceTree = "<group>";
+		};
+		E784157D1C4CB6E6008068D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E784157E1C4CB6E6008068D8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E78415961C4CB6E7008068D8 /* LSerialTakeCameraTests */ = {
+			isa = PBXGroup;
+			children = (
+				E78415971C4CB6E7008068D8 /* LSerialTakeCameraTests.m */,
+				E78415991C4CB6E7008068D8 /* Info.plist */,
+			);
+			path = LSerialTakeCameraTests;
+			sourceTree = "<group>";
+		};
+		E78415A11C4CB6E7008068D8 /* LSerialTakeCameraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E78415A21C4CB6E7008068D8 /* LSerialTakeCameraUITests.m */,
+				E78415A41C4CB6E7008068D8 /* Info.plist */,
+			);
+			path = LSerialTakeCameraUITests;
+			sourceTree = "<group>";
+		};
+		E78415B01C4CB702008068D8 /* category */ = {
+			isa = PBXGroup;
+			children = (
+				E78415B21C4CB834008068D8 /* UIButton+LAttributeSetting.h */,
+				E78415B31C4CB834008068D8 /* UIButton+LAttributeSetting.m */,
+				E78415B51C4CB8B4008068D8 /* UIView+LLayout.h */,
+				E78415B61C4CB8B4008068D8 /* UIView+LLayout.m */,
+				E7E7318F1C4F1E7F0067DD9A /* UILabel+LAttributeSetting.h */,
+				E7E731901C4F1E7F0067DD9A /* UILabel+LAttributeSetting.m */,
+				E797228A1C51D877004989B9 /* CALayer+LDrawMethods.h */,
+				E797228B1C51D877004989B9 /* CALayer+LDrawMethods.m */,
+			);
+			path = category;
+			sourceTree = "<group>";
+		};
+		E78415B81C4CBB87008068D8 /* cameraClass */ = {
+			isa = PBXGroup;
+			children = (
+				E78415BC1C4CCACA008068D8 /* LCameraViewController.h */,
+				E78415BD1C4CCACA008068D8 /* LCameraViewController.m */,
+				E78415C21C4CE0D1008068D8 /* LCameraManager.h */,
+				E78415C31C4CE0D1008068D8 /* LCameraManager.m */,
+				E78415B91C4CBBB8008068D8 /* LCameraView.h */,
+				E78415BA1C4CBBB8008068D8 /* LCameraView.m */,
+				E7E731921C4F23480067DD9A /* LSlider.h */,
+				E7E731931C4F23480067DD9A /* LSlider.m */,
+				E78834F91C4E352E00807C06 /* LPhotoCollectionViewCell.h */,
+				E78834FA1C4E352E00807C06 /* LPhotoCollectionViewCell.m */,
+			);
+			path = cameraClass;
+			sourceTree = "<group>";
+		};
+		E79722A91C520A98004989B9 /* Browse */ = {
+			isa = PBXGroup;
+			children = (
+				E79722AA1C520AD5004989B9 /* LZoomScrollView.h */,
+				E79722AB1C520AD5004989B9 /* LZoomScrollView.m */,
+				E79722AD1C520B2D004989B9 /* LBrowsCollectionViewCell.h */,
+				E79722AE1C520B2D004989B9 /* LBrowsCollectionViewCell.m */,
+				E79722B01C520B80004989B9 /* LBrowseView.h */,
+				E79722B11C520B80004989B9 /* LBrowseView.m */,
+			);
+			path = Browse;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E78415791C4CB6E6008068D8 /* LSerialTakeCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E78415A71C4CB6E7008068D8 /* Build configuration list for PBXNativeTarget "LSerialTakeCamera" */;
+			buildPhases = (
+				E78415761C4CB6E6008068D8 /* Sources */,
+				E78415771C4CB6E6008068D8 /* Frameworks */,
+				E78415781C4CB6E6008068D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LSerialTakeCamera;
+			productName = LSerialTakeCamera;
+			productReference = E784157A1C4CB6E6008068D8 /* LSerialTakeCamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E78415921C4CB6E7008068D8 /* LSerialTakeCameraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E78415AA1C4CB6E7008068D8 /* Build configuration list for PBXNativeTarget "LSerialTakeCameraTests" */;
+			buildPhases = (
+				E784158F1C4CB6E7008068D8 /* Sources */,
+				E78415901C4CB6E7008068D8 /* Frameworks */,
+				E78415911C4CB6E7008068D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E78415951C4CB6E7008068D8 /* PBXTargetDependency */,
+			);
+			name = LSerialTakeCameraTests;
+			productName = LSerialTakeCameraTests;
+			productReference = E78415931C4CB6E7008068D8 /* LSerialTakeCameraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E784159D1C4CB6E7008068D8 /* LSerialTakeCameraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E78415AD1C4CB6E7008068D8 /* Build configuration list for PBXNativeTarget "LSerialTakeCameraUITests" */;
+			buildPhases = (
+				E784159A1C4CB6E7008068D8 /* Sources */,
+				E784159B1C4CB6E7008068D8 /* Frameworks */,
+				E784159C1C4CB6E7008068D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E78415A01C4CB6E7008068D8 /* PBXTargetDependency */,
+			);
+			name = LSerialTakeCameraUITests;
+			productName = LSerialTakeCameraUITests;
+			productReference = E784159E1C4CB6E7008068D8 /* LSerialTakeCameraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E78415721C4CB6E6008068D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = L;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "李姝睿";
+				TargetAttributes = {
+					E78415791C4CB6E6008068D8 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					E78415921C4CB6E7008068D8 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = E78415791C4CB6E6008068D8;
+					};
+					E784159D1C4CB6E7008068D8 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = E78415791C4CB6E6008068D8;
+					};
+				};
+			};
+			buildConfigurationList = E78415751C4CB6E6008068D8 /* Build configuration list for PBXProject "LSerialTakeCamera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E78415711C4CB6E6008068D8;
+			productRefGroup = E784157B1C4CB6E6008068D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E78415791C4CB6E6008068D8 /* LSerialTakeCamera */,
+				E78415921C4CB6E7008068D8 /* LSerialTakeCameraTests */,
+				E784159D1C4CB6E7008068D8 /* LSerialTakeCameraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E78415781C4CB6E6008068D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E784158D1C4CB6E7008068D8 /* LaunchScreen.storyboard in Resources */,
+				E784158A1C4CB6E7008068D8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E78415911C4CB6E7008068D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E784159C1C4CB6E7008068D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E78415761C4CB6E6008068D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E78415B71C4CB8B4008068D8 /* UIView+LLayout.m in Sources */,
+				E78415BB1C4CBBB8008068D8 /* LCameraView.m in Sources */,
+				E78834FB1C4E352E00807C06 /* LPhotoCollectionViewCell.m in Sources */,
+				E7E731911C4F1E7F0067DD9A /* UILabel+LAttributeSetting.m in Sources */,
+				E78415C11C4CCB25008068D8 /* LRootViewController.m in Sources */,
+				E78415C41C4CE0D1008068D8 /* LCameraManager.m in Sources */,
+				E78415BE1C4CCACA008068D8 /* LCameraViewController.m in Sources */,
+				E797228C1C51D877004989B9 /* CALayer+LDrawMethods.m in Sources */,
+				E78415821C4CB6E6008068D8 /* AppDelegate.m in Sources */,
+				E78415B41C4CB834008068D8 /* UIButton+LAttributeSetting.m in Sources */,
+				E7E731941C4F23480067DD9A /* LSlider.m in Sources */,
+				E79722AC1C520AD5004989B9 /* LZoomScrollView.m in Sources */,
+				E784157F1C4CB6E6008068D8 /* main.m in Sources */,
+				E79722AF1C520B2D004989B9 /* LBrowsCollectionViewCell.m in Sources */,
+				E79722B21C520B80004989B9 /* LBrowseView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E784158F1C4CB6E7008068D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E78415981C4CB6E7008068D8 /* LSerialTakeCameraTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E784159A1C4CB6E7008068D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E78415A31C4CB6E7008068D8 /* LSerialTakeCameraUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E78415951C4CB6E7008068D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E78415791C4CB6E6008068D8 /* LSerialTakeCamera */;
+			targetProxy = E78415941C4CB6E7008068D8 /* PBXContainerItemProxy */;
+		};
+		E78415A01C4CB6E7008068D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E78415791C4CB6E6008068D8 /* LSerialTakeCamera */;
+			targetProxy = E784159F1C4CB6E7008068D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E784158B1C4CB6E7008068D8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E784158C1C4CB6E7008068D8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E78415A51C4CB6E7008068D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "8844f041-d546-4763-a1c7-8b4ff933661a";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E78415A61C4CB6E7008068D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "8844f041-d546-4763-a1c7-8b4ff933661a";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E78415A81C4CB6E7008068D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PREFIX_HEADER = LSerialTakeCamera/LPrefixHeader.pch;
+				INFOPLIST_FILE = LSerialTakeCamera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lishurui.LSerialTakeCamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8844f041-d546-4763-a1c7-8b4ff933661a";
+			};
+			name = Debug;
+		};
+		E78415A91C4CB6E7008068D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PREFIX_HEADER = LSerialTakeCamera/LPrefixHeader.pch;
+				INFOPLIST_FILE = LSerialTakeCamera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lishurui.LSerialTakeCamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8844f041-d546-4763-a1c7-8b4ff933661a";
+			};
+			name = Release;
+		};
+		E78415AB1C4CB6E7008068D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LSerialTakeCameraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lishurui.LSerialTakeCameraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LSerialTakeCamera.app/LSerialTakeCamera";
+			};
+			name = Debug;
+		};
+		E78415AC1C4CB6E7008068D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LSerialTakeCameraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lishurui.LSerialTakeCameraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LSerialTakeCamera.app/LSerialTakeCamera";
+			};
+			name = Release;
+		};
+		E78415AE1C4CB6E7008068D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LSerialTakeCameraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lishurui.LSerialTakeCameraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LSerialTakeCamera;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E78415AF1C4CB6E7008068D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LSerialTakeCameraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lishurui.LSerialTakeCameraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LSerialTakeCamera;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E78415751C4CB6E6008068D8 /* Build configuration list for PBXProject "LSerialTakeCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E78415A51C4CB6E7008068D8 /* Debug */,
+				E78415A61C4CB6E7008068D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E78415A71C4CB6E7008068D8 /* Build configuration list for PBXNativeTarget "LSerialTakeCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E78415A81C4CB6E7008068D8 /* Debug */,
+				E78415A91C4CB6E7008068D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E78415AA1C4CB6E7008068D8 /* Build configuration list for PBXNativeTarget "LSerialTakeCameraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E78415AB1C4CB6E7008068D8 /* Debug */,
+				E78415AC1C4CB6E7008068D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E78415AD1C4CB6E7008068D8 /* Build configuration list for PBXNativeTarget "LSerialTakeCameraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E78415AE1C4CB6E7008068D8 /* Debug */,
+				E78415AF1C4CB6E7008068D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E78415721C4CB6E6008068D8 /* Project object */;
+}
